@@ -163,7 +163,7 @@ ul {
   flex-direction: column;
   height: 600px;
   background-image: linear-gradient(to bottom, #2f303a66, #2f303a66),
-    url(../images/Images17.jpg);
+    url(../images/images17.jpg);
 
   gap: 50px;
 }
