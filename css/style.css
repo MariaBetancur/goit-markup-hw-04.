@@ -246,6 +246,11 @@ ul {
 .svg-our-team:active {
   fill: var(--brand-color);
 }
+.svg-our-team {
+  background-color: var(--brand-color);
+  border-radius: 50%;
+}
+
 .Regular-customers {
   display: block;
 }
