@@ -238,6 +238,10 @@ ul {
   background: rgb(255, 255, 255);
   border-radius: 0px 0px 4px 4px;
 }
+.social-media-our-team {
+  display: flex;
+  align-items: center;
+}
 .svg-our-team {
   fill: rgb(175, 177, 184);
 }
