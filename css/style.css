@@ -241,6 +241,7 @@ ul {
 .social-media-our-team {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .svg-our-team {
   fill: rgb(175, 177, 184);
@@ -252,7 +253,7 @@ ul {
 }
 .svg-our-team {
   background-color: var(--brand-color);
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .Regular-customers {
