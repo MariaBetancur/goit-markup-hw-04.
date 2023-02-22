@@ -184,8 +184,18 @@ ul {
   display: flex;
   gap: 30px;
 }
+.paragraph-svg {
+  fill: solid, #757575;
+  background-color: #f5f4fa;
+}
 .paragraph-svg:hover {
-  fill: var(--brand-color);
+  background-color: var(--brand-color);
+  fill: #757575;
+}
+.paragraph-svg:focus,
+.paragraph-svg:active {
+  background-color: var(--brand-color);
+  fill: #757575;
 }
 
 .what-are-we-dedicated {
@@ -226,6 +236,9 @@ ul {
   padding-bottom: 30px;
   padding-right: 44px;
   padding-left: 44px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .our-team-image {
@@ -237,23 +250,30 @@ ul {
   padding-bottom: 30px;
   background: rgb(255, 255, 255);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 90px) / 4);
+  align-items: center;
+  gap: 30px;
 }
 .social-media-our-team {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 }
 .svg-our-team {
   fill: rgb(175, 177, 184);
+  width: 20x;
+  height: 20px;
 }
 .svg-our-team:hover,
 .svg-our-team:focus,
 .svg-our-team:active {
   fill: var(--brand-color);
 }
-.svg-our-team {
+.svg-our-team:hover {
   background-color: var(--brand-color);
-  border-radius: 20%;
+  fill: #757575;
+  border-radius: 50%;
 }
 
 .Regular-customers {
@@ -278,12 +298,32 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   stroke: rgb(175, 177, 184);
+  gap: 30px;
+  padding: ;
+}
+.svg-regular-customers {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  fill: #afb1b8;
+  border: 1px solid, #afb1b8;
+  border-radius: 4px;
 }
 
 .Regular-customers-icons:hover,
 .Regular-customers-icons:focus,
 .Regular-customers-icons:active {
   fill: var(--brand-color);
+}
+.Regular-customers-icons {
+  fill: solid;
+  border-color: #afb1b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  border: 1px solid, #afb1b8;
+  border-radius: 4px;
 }
 .address {
   font-family: var(--brand-font-size), "sans-serif";
