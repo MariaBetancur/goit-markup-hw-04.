@@ -92,7 +92,14 @@ ul {
 .button-solutions focus {
   background-color: var(--brand-color);
 }
-
+nav ul li a {
+  border-bottom: 3px solid transparent;
+  padding: 32px 0;
+}
+nav ul li a:hover {
+  border-bottom-color: var(--brand-color);
+  border-radius: 2px;
+}
 .menu {
   display: flex;
 }
@@ -104,6 +111,7 @@ ul {
   font-size: 14px;
   font-weight: 500px;
 }
+
 .link-menu-header {
   display: flex;
   align-items: center;
@@ -276,9 +284,6 @@ ul {
   border-radius: 50%;
 }
 
-.Regular-customers {
-  display: block;
-}
 .container-Regular-customers {
   font-family: var(--brand-font-size), "sans-serif";
   font-style: normal;
@@ -287,11 +292,12 @@ ul {
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
-  color: rgb(33, 33, 33);
+  color: #afb1b8;
   justify-content: center;
   align-items: center;
   height: 372px;
   padding: 59px 215px 151px;
+  display: flex;
 }
 .Regular-customers-icons {
   display: flex;
@@ -302,12 +308,12 @@ ul {
   padding: ;
 }
 .svg-regular-customers {
+  height: 100px;
+  width: 100px;
   display: flex;
   align-items: center;
-  gap: 50px;
-  fill: #afb1b8;
-  border: 1px solid, #afb1b8;
-  border-radius: 4px;
+  justify-content: center;
+  border: 1px solid #afb1b8;
 }
 
 .Regular-customers-icons:hover,
@@ -315,16 +321,7 @@ ul {
 .Regular-customers-icons:active {
   fill: var(--brand-color);
 }
-.Regular-customers-icons {
-  fill: solid;
-  border-color: #afb1b8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 30px;
-  border: 1px solid, #afb1b8;
-  border-radius: 4px;
-}
+
 .address {
   font-family: var(--brand-font-size), "sans-serif";
   font-style: normal;
@@ -499,31 +496,29 @@ ul {
   margin: 0 auto;
   padding: 60px 0;
 }
-.found-at:hover {
-  fill: var(--brand-color);
-}
-
-.container-found-at {
-  fill: rgb(175, 177, 184);
-  list-style: none;
-  margin: 0 auto;
-  display: flex;
-  padding: 95px 0px;
-}
-
-.found-at {
-  display: block;
+.menu-found-at {
+  fill: solid, #ffffff;
   text-align: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.found-at:hover {
+  fill: solid, #ffffff;
+  background-color: var(--brand-color);
+  border-radius: 300%;
 }
 
-.found-at-icon:active,
-.found-at-icon:hover {
-  fill: var(--brand-color);
+.icon-found-at {
+  display: flex;
 }
-.found-at-icon {
-  fill: rgb(175, 177, 184);
+.found-at {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 500px;
 }
 
 h1 {
