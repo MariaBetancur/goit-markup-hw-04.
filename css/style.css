@@ -294,32 +294,38 @@ nav ul li a:hover {
   letter-spacing: 0.03em;
   color: #afb1b8;
   justify-content: center;
-  align-items: center;
   height: 372px;
   padding: 59px 215px 151px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .Regular-customers-icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  stroke: rgb(175, 177, 184);
+  fill: #afb1b8;
   gap: 30px;
-  padding: ;
+  margin: 21px 64px;
 }
 .svg-regular-customers {
-  height: 100px;
-  width: 100px;
-  display: flex;
+  display: inline-block;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  width: 170px;
+  height: 92px;
   border: 1px solid #afb1b8;
+  border-radius: 4px;
+  gap: 50px;
 }
 
 .Regular-customers-icons:hover,
 .Regular-customers-icons:focus,
 .Regular-customers-icons:active {
   fill: var(--brand-color);
+}
+.svg-regular-customers:hover {
+  border-color: var(--brand-color);
 }
 
 .address {
@@ -498,27 +504,33 @@ nav ul li a:hover {
 }
 .menu-found-at {
   fill: solid, #ffffff;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   display: flex;
 }
-.found-at:hover {
+.icon-found-at:hover {
   fill: solid, #ffffff;
   background-color: var(--brand-color);
   border-radius: 300%;
 }
 
-.icon-found-at {
-  display: flex;
+.list-found-at {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+  fill: solid #ffffff;
 }
-.found-at {
+.icon-found-at {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
   font-size: 14px;
   font-weight: 500px;
+  gap: 50px;
+}
+.icon-found-at {
 }
 
 h1 {
